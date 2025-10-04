@@ -3,7 +3,7 @@
 Health-Risk-Predictor
 📋 Overview
 
-Health-Risk-Predictor is an interactive web application that estimates an individual’s health risk score based on their lifestyle, habits, and biometric inputs. It uses machine learning to provide personalized insights and visualizations.
+- Health-Risk-Predictor is an interactive web application that estimates an individual’s health risk score based on their lifestyle, habits, and biometric inputs. It uses machine learning to provide personalized insights and visualizations.
 
 🔍 Key Features
 
@@ -21,11 +21,17 @@ Dataset & Experimentation — The repository includes synthetic_health_data.csv 
 
 🧩 Repository Structure
 File / Folder	Purpose
+
 app.py -	The main Streamlit application script
+
 Health_risk_predict.pkl - Pre-trained ML model for risk prediction
+
 Label_encoders.pkl -	Encoders for converting categorical inputs
+
 synthetic_health_data.csv	- Sample / synthetic dataset used for modeling or demo
+
 healthrisk.ipynb -	Notebook containing data analysis, training routines
+
 requirements.txt -	Python dependencies required to run the app
 
 🌐 Deployment
